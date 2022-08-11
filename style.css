@@ -4,6 +4,7 @@ body {
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
+    background-color: black;
 }
 
 header {
@@ -46,17 +47,6 @@ p.intro-bio {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 nav {
     text-align: center;
     padding: 30px;
@@ -88,4 +78,77 @@ nav a {
 }
 nav a:hover {
     color: rgb(170, 80, 80);
+}
+
+.intro-page-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+img.personal-photo {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    left: 20%;
+    margin: 20px;
+   
+}
+
+
+
+h2.about {
+    color: rgb(170, 80, 80);
+    height: 30px;
+}
+
+h1.introduction {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.intro-paragraph {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    word-spacing: 4px;
+    line-height: 40px;
+}
+
+h2.about,
+h1.introduction,
+.intro-paragraph {
+    position: relative;
+    width: 40%;
+    bottom: 370px;
+    text-align: center;
+    left: 40%;
+}
+
+.profile {
+    color: white;
+}
+.below-profile {
+    color:white
+}
+.fullname {
+    color: white;
+}
+.name {
+    color: white;
+}
+.birth-date {
+    color:white;
+}
+.date {
+    color: white;
+}
+.email-address {
+    color: white;
+}
+.email {
+    color: white;
 }
