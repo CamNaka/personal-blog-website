@@ -92,9 +92,9 @@ img.personal-photo {
     height: 200px;
     width: 200px;
     border-radius: 100px;
-    left: 20%;
+    left: 7%;
     margin: 20px;
-   
+    bottom: 90px;
 }
 
 
@@ -102,6 +102,7 @@ img.personal-photo {
 h2.about {
     color: rgb(170, 80, 80);
     height: 30px;
+    font-size: 25px;
 }
 
 h1.introduction {
@@ -112,8 +113,8 @@ h1.introduction {
 }
 
 .intro-paragraph {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
+    color: rgb(174, 174, 174);
+    font-size: 20px;
     word-spacing: 4px;
     line-height: 40px;
 }
@@ -122,33 +123,59 @@ h2.about,
 h1.introduction,
 .intro-paragraph {
     position: relative;
-    width: 40%;
-    bottom: 370px;
+    width: 50%;
+    bottom: 470px;
     text-align: center;
-    left: 40%;
+    left: 23%;
 }
 
-.profile {
+
+.flex {
+    display: flex;
+}
+.profile-container,
+.skills-container {
+    position: relative;
+    left: 12%;
+    bottom: 250px;
+    flex: 50%;
+    width: 70%;
+}
+
+h2.profile,
+.skills {
     color: white;
+    font-size: 25px;
+    text-transform: capitalize;
 }
-.below-profile {
-    color:white
+.below-profile,
+.below-skills {
+    color:rgb(174, 174, 174);
+    font-size: 20px;
+    width: 55%;
 }
-.fullname {
-    color: white;
-}
-.name {
-    color: white;
-}
-.birth-date {
-    color:white;
-}
-.date {
-    color: white;
-}
+
+.fullname,
+.birth-date,
 .email-address {
     color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.name,
+.date {
+    color: rgb(174, 174, 174);
+    text-transform: capitalize;
+    padding-bottom: 20px;
 }
 .email {
+    text-transform: lowercase;
+    color: rgb(174, 174, 174);
+}
+
+.skills-container{
+   flex: 50%;
+}
+.skills {
     color: white;
 }
