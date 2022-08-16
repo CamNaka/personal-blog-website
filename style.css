@@ -83,24 +83,21 @@ nav a:hover {
 
 
 
-
-
+/*anything below 864px wide 
+needs a new layout*/
 
 
 
 
 .intro-flex {
-   display: flex;
+
 }
-
-
 .intro-container {
     position: relative;
-    flex: 50%;
 }
 .img-container {
     position: relative;
-    flex: 50%;
+    top: 380px;
 }
 
 
@@ -108,9 +105,10 @@ nav a:hover {
     position: relative;
     width: 170px;
     bottom: 200px;
-    justify-content: center;
-    left: 20%;
     border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2.about {
     color: rgb(170, 80, 80);
@@ -133,10 +131,13 @@ h2.about,
 h1.introduction,
 .intro-paragraph {
     position: relative;
-    width: 70%;
+    width: 50%;
     text-align: center;
-    bottom: 90%;
-    right: 40%;
+    bottom: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 
