@@ -80,54 +80,82 @@ nav a:hover {
     color: rgb(170, 80, 80);
 }
 
-.intro-page-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+
+
+
+
+
+
+
+
+
+.intro-flex {
+   display: flex;
 }
 
 
-img.personal-photo {
+.intro-container {
     position: relative;
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    left: 7%;
-    margin: 20px;
-    bottom: 90px;
+    flex: 50%;
+}
+.img-container {
+    position: relative;
+    flex: 50%;
 }
 
 
-
+.personal-photo {
+    position: relative;
+    width: 170px;
+    bottom: 200px;
+    justify-content: center;
+    left: 20%;
+    border-radius: 100%;
+}
 h2.about {
     color: rgb(170, 80, 80);
     height: 30px;
     font-size: 25px;
 }
-
 h1.introduction {
     color: rgb(255, 255, 255);
     font-size: 40px;
     height: 50px;
     margin-top: 0px;
 }
-
 .intro-paragraph {
     color: rgb(174, 174, 174);
     font-size: 20px;
     word-spacing: 4px;
     line-height: 40px;
 }
-
 h2.about,
 h1.introduction,
 .intro-paragraph {
     position: relative;
-    width: 50%;
-    bottom: 470px;
+    width: 70%;
     text-align: center;
-    left: 23%;
+    bottom: 90%;
+    right: 40%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .flex {
@@ -171,10 +199,6 @@ h2.profile,
 .email {
     text-transform: lowercase;
     color: rgb(174, 174, 174);
-}
-
-.skills-container{
-   flex: 50%;
 }
 .skills {
     color: white;
