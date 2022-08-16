@@ -1,143 +1,191 @@
-body {
-   width: 100%;
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-    overflow-x: hidden;
-    background-color: black;
-}
-
-header {
-   width: 100%;
-   object-fit: cover;
-}
- div.top-page-container {
+@media screen and (min-width: 1000px) {
+    
+    body {
     width: 100%;
- }
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+        background-color: black;
+    }
 
-img.header-img {
+    header {
+    width: 100%;
     object-fit: cover;
-    width: 100%;
-    height: 980px;
-    background-size: cover;
-}
+    }
+    div.top-page-container {
+        width: 100%;
+    }
 
-h2.header-name {
-    position: relative;
-    bottom: 750px;
-    font-size: 70px;
-    text-align: center;
-    color: white;
-    font-style: normal;
-}
+    img.header-img {
+        object-fit: cover;
+        width: 100%;
+        height: 980px;
+        background-size: cover;
+    }
 
-p.intro-bio {
-    position: relative;
-    text-align: center;
-    bottom: 720px;
-    font-size: 20px;
-    color: white;
-} 
-.PC {
-    position: relative;
-    text-align: center;
-    bottom: 720px;
-    font-size: 20px;
-    color: white;
-}
+    h2.header-name {
+        position: relative;
+        bottom: 750px;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+        font-style: normal;
+    }   
+
+    p.intro-bio {
+        position: relative;
+        text-align: center;
+        bottom: 720px;
+        font-size: 20px;
+        color: white;
+    } 
+    .PC {
+        position: relative;
+        text-align: center;
+        bottom: 720px;
+        font-size: 20px;
+        color: white;
+    }
 
 
-nav {
-    text-align: center;
-    padding: 30px;
-    position: relative;
-    bottom: 990px;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: rgb(255, 255, 255);
-}
+    nav {
+        text-align: center;
+        padding: 30px;
+        position: relative;
+        bottom: 990px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: rgb(255, 255, 255);
+    }  
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
 
-nav li {
-    display: inline-block;
-    margin-left: 30px;
-    margin-right: 30px;
+    nav li {
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 30px;
     
-}
+    }
 
-nav a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    bottom: 300px;
-}
-nav a:hover {
-    color: rgb(170, 80, 80);
-}
-
-
+    nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        bottom: 300px;
+    }
+    nav a:hover {
+        color: rgb(170, 80, 80);
+    }
 
 
-/*anything below 864px wide 
-needs a new layout*/
+    /*anything below 864px wide 
+    needs a new layout*/
 
 
+    .intro-flex {
+        display: flex;
+    }
+    .intro-container {
+        position: relative;
+        flex: 50%;
+    }
+    .img-container {
+        position: relative;
+        flex: 50%;
+        top: 380px;
+    }
 
 
-.intro-flex {
-
-}
-.intro-container {
-    position: relative;
-}
-.img-container {
-    position: relative;
-    top: 380px;
-}
-
-
-.personal-photo {
-    position: relative;
-    width: 170px;
-    bottom: 200px;
-    border-radius: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-h2.about {
-    color: rgb(170, 80, 80);
-    height: 30px;
-    font-size: 25px;
-}
-h1.introduction {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    height: 50px;
-    margin-top: 0px;
-}
-.intro-paragraph {
-    color: rgb(174, 174, 174);
-    font-size: 20px;
-    word-spacing: 4px;
-    line-height: 40px;
-}
-h2.about,
-h1.introduction,
-.intro-paragraph {
-    position: relative;
-    width: 50%;
-    text-align: center;
-    bottom: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    .personal-photo {
+        position: relative;
+        width: 170px;
+        bottom: 540px;
+        border-radius: 100%;
+        display: block;
+        margin-left: 25%;
+        margin-right: auto;
+    }
+    h2.about {
+        color: rgb(170, 80, 80);
+        height: 30px;
+        font-size: 25px;
+    }
+    h1.introduction {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        height: 50px;
+        margin-top: 0px;
+    }
+    .intro-paragraph {
+     color: rgb(174, 174, 174);
+        font-size: 20px;
+        word-spacing: 4px;
+        line-height: 40px;
+    }
+    h2.about,
+    h1.introduction,
+    .intro-paragraph {
+        position: relative;
+        width: 80%;
+        text-align: center;
+        bottom: 250px;
+        right: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     
+    }
+
+    .flex {
+        display: flex;
+    }
+    .profile-container,
+    .skills-container {
+        position: relative;
+        left: 12%;
+        bottom: 200px;
+        flex: 50%;
+        width: 70%;
+    }
+
+    h2.profile,
+    .skills {
+        color: white;
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+    .below-profile,
+    .below-skills {
+        color:rgb(174, 174, 174);
+        font-size: 20px;
+        width: 55%;
+    }
+
+    .fullname,
+    .birth-date,
+    .email-address {
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .name,
+    .date { 
+        color: rgb(174, 174, 174);
+        text-transform: capitalize;
+        padding-bottom: 20px;
+    }
+    .email {
+        text-transform: lowercase;
+        color: rgb(174, 174, 174);
+    }
+    .skills {
+        color: white;
+    }
 }
 
 
@@ -147,60 +195,193 @@ h1.introduction,
 
 
 
+@media screen and (max-width: 999px) {
+    
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+        background-color: rgb(0, 0, 0);
+    }
+
+    header {
+        width: 100%;
+        object-fit: cover;
+    }
+    div.top-page-container {
+        width: 100%;
+    }
+
+    img.header-img {
+        object-fit: cover;
+        width: 100%;
+        height: 980px;
+        background-size: cover;
+    }
+
+    h2.header-name {
+        position: relative;
+        bottom: 750px;
+        font-size: 70px;
+        text-align: center;
+        color: white;
+        font-style: normal;
+    }   
+
+    p.intro-bio {
+        position: relative;
+        text-align: center;
+        bottom: 720px;
+        font-size: 20px;
+        color: white;
+    } 
+    .PC {
+        position: relative;
+        text-align: center;
+        bottom: 720px;
+        font-size: 20px;
+        color: white;
+    }
+
+
+    nav {
+        text-align: center;
+        padding: 30px;
+        position: relative;
+        bottom: 990px;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-color: rgb(255, 255, 255);
+    }  
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    nav li {
+        display: inline-block;
+        margin-left: 30px;
+        margin-right: 30px;
+    
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        bottom: 300px;
+    }
+    nav a:hover {
+        color: rgb(170, 80, 80);
+    }
+
+
+    /*anything below 1000px wide 
+    needs a new layout*/
+
+
+    .intro-flex {
+        
+    }
+    .intro-container {
+        position: relative;
+    }
+    .img-container {
+        position: relative;
+    }
+
+
+    .personal-photo {
+        position: relative;
+        width: 150px;
+        bottom: 300px;
+        border-radius: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2.about {
+        color: rgb(170, 80, 80);
+        height: 30px;
+        font-size: 25px;
+    }
+    h1.introduction {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        height: 50px;
+        margin-top: 0px;
+    }
+    .intro-paragraph {
+        color: rgb(174, 174, 174);
+        font-size: 20px;
+        word-spacing: 4px;
+        line-height: 40px;
+    }
+    h2.about,
+    h1.introduction,
+    .intro-paragraph {
+        position: relative;
+        width: 76%;
+        text-align: center;
+        bottom: 270px;
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
 
 
 
+    .flex {
+        display: flex;
+    }
+    .profile-container,
+    .skills-container {
+        position: relative;
+        left: 12%;
+        bottom: 200px;
+        flex: 50%;
+        width: 70%;
+    }
 
+    h2.profile,
+    .skills {
+        color: white;
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+    .below-profile,
+    .below-skills {
+        color:rgb(174, 174, 174);
+        font-size: 20px;
+        width: 55%;
+    }
 
-
-
-
-
-
-
-
-.flex {
-    display: flex;
+    .fullname,
+    .birth-date,
+    .email-address {
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    .name,
+    .date { 
+        color: rgb(174, 174, 174);
+        text-transform: capitalize;
+        padding-bottom: 20px;
+    }
+    .email {
+        text-transform: lowercase;
+        color: rgb(174, 174, 174);
+    }
+    .skills {
+        color: white;
+    }
 }
-.profile-container,
-.skills-container {
-    position: relative;
-    left: 12%;
-    bottom: 250px;
-    flex: 50%;
-    width: 70%;
-}
 
-h2.profile,
-.skills {
-    color: white;
-    font-size: 25px;
-    text-transform: capitalize;
-}
-.below-profile,
-.below-skills {
-    color:rgb(174, 174, 174);
-    font-size: 20px;
-    width: 55%;
-}
 
-.fullname,
-.birth-date,
-.email-address {
-    color: white;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-.name,
-.date {
-    color: rgb(174, 174, 174);
-    text-transform: capitalize;
-    padding-bottom: 20px;
-}
-.email {
-    text-transform: lowercase;
-    color: rgb(174, 174, 174);
-}
-.skills {
-    color: white;
-}
